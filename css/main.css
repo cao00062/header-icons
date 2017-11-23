@@ -1,3 +1,8 @@
+body{
+    background-color: #fff;
+}
+
+
 header{
     background-color: #d05c2e;
     color: #fff;
@@ -5,15 +10,24 @@ header{
 
 .banner {
     font-size: 2rem;
+    text-align: center;
+
     
 }
 
 .left-grain {
     float: left;
+    width: 40px;
+    padding: .4rem 0;
+    margin: .3rem;
 }
 
 .right-grain {
     float: right;
+    clear: right;
+    width: 40px;
+    padding: .4rem 0;
+    margin: .3rem;
 }
 
 .top-nav {
@@ -22,8 +36,13 @@ header{
 
 .top-nav a{
     float: left;
-    text-align: center;
     text-decoration: none;
     font-size: 1.125rem;
-    clear: both;
+    padding: .4rem;
+    line-height: 1.5;
+}
+
+.top-nav a:hover{
+    background-color: #a63f38;
+    
 }
