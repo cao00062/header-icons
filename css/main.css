@@ -1,5 +1,6 @@
 html {
-  box-sizing:inherit;
+  box-sizing:border-box;
+  
   
 }
 
@@ -7,7 +8,9 @@ html {
   margin-top: 0;
 }
 
-
+body{
+    
+}
 header{
     background-color: #d05c2e;
     color: #fff;
