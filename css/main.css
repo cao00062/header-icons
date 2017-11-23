@@ -1,11 +1,19 @@
-body{
-    background-color: #fff;
+html {
+  box-sizing:inherit;
+  
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 
 header{
     background-color: #d05c2e;
     color: #fff;
+    padding: 0 0 .7rem;
+    font-family: 'Merriweather', sans-serif;
+ 
 }
 
 .banner {
@@ -24,25 +32,32 @@ header{
 
 .right-grain {
     float: right;
-    clear: right;
     width: 40px;
     padding: .4rem 0;
     margin: .3rem;
+
 }
 
 .top-nav {
-    clear: both;
+   
+    
+    display: inline-block;
 }
 
 .top-nav a{
-    float: left;
+    
     text-decoration: none;
     font-size: 1.125rem;
     padding: .4rem;
     line-height: 1.5;
+    border-style: solid;
+    border-color: #a63f38;
+    
+    
 }
 
 .top-nav a:hover{
     background-color: #a63f38;
+    
     
 }
